@@ -54,9 +54,9 @@ public class MainController {
     @FXML
     protected void onCarregarClick() {
         // Simula dados carregados de algum lugar (ex: banco, arquivo, API, etc.)
-        String nomeExemplo = "Eduardo";
-        double alturaExemplo = 170;
-        double pesoExemplo = 80;
+        String nomeExemplo = "Danilo";
+        double alturaExemplo = 179;
+        double pesoExemplo = 69;
 
         // Preenche os campos da tela
         txtNome.setText(nomeExemplo);
