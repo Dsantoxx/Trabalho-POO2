@@ -162,14 +162,14 @@
             </VBox>
          </children>
       </HBox>
-      <TableView prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #1E1F22;">
-        <columns>
-          <TableColumn prefWidth="75.0" style="-fx-background-color: #2B2D30;" text="ID" />
-          <TableColumn prefWidth="295.0" style="-fx-background-color: #2B2D30;" text="NOME" />
-            <TableColumn prefWidth="92.33334350585938" style="-fx-background-color: #2B2D30;" text="ALTURA" />
-            <TableColumn prefWidth="102.33331298828125" style="-fx-background-color: #2B2D30;" text="PESO" />
-            <TableColumn prefWidth="105.0" style="-fx-background-color: #2B2D30;" text="IMC" />
-        </columns>
-      </TableView>
+       <TableView fx:id="tableViewPessoas" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #1E1F22;">
+           <columns>
+               <TableColumn prefWidth="75.0" style="-fx-background-color: #2B2D30;" text="ID" />
+               <TableColumn fx:id="columnNome" prefWidth="295.0" style="-fx-background-color: #2B2D30;" text="NOME" />
+               <TableColumn fx:id="columnAltura" prefWidth="92.33334350585938" style="-fx-background-color: #2B2D30;" text="ALTURA" />
+               <TableColumn fx:id="columnPeso" prefWidth="102.33331298828125" style="-fx-background-color: #2B2D30;" text="PESO" />
+               <TableColumn fx:id="columnIMC" prefWidth="105.0" style="-fx-background-color: #2B2D30;" text="IMC" />
+           </columns>
+       </TableView>
    </children>
 </VBox>
